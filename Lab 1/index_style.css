@@ -1,0 +1,62 @@
+/*Author: Joey Rundlett*/
+    body {
+        text-align: center;
+        font-family: Arial;
+        color: lightgrey;
+        background-color: grey;
+        height: 100vh;
+    }
+
+    table {
+        border: solid 2px black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 85%;
+    }
+
+    th {
+        background-color: black;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    td {
+        border: solid 1px black;
+        width: 15%;
+    }
+
+    .calc {
+        background-color: red;
+        color: yellow;
+    }
+
+    .discrete {
+        background-color: green;
+        color: red;
+    }
+
+    .web {
+        background-color: yellow;
+        color: green;
+    }
+
+    .softcomp {
+        background-color: purple;
+        color: lightblue;
+    }
+
+    .firstcolumn {
+        width: 10%;
+    }
+@media print {
+    body{
+        -webkit-print-color-adjust: exact;
+        color: black;
+        background-color: white;
+    }
+    td{
+        color: black;
+    }
+}
